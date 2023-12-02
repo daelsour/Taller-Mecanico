@@ -1,15 +1,20 @@
 <template>
   <h2>kkkk</h2>
-  <p>Aquí irá contenido variado solamente que</p>
-  <p>queremos que el footer se vaya pa abajo veda</p>
-  <p>y que se vea un poco más decente</p>
-  <p>que chsm los temerarios</p>
-  <p>en lo que escribo me está doliendo la nuca</p>
-  <p>diosito help que me tiro del puente negro 🙊</p>
-  <p>me gusta stray kids, twice, gidle, babymetal 🙊</p>
-  <p>babymetal salió primer lugar en mi spotify wrapped 2023</p>
+  <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit,</p>
+  <p>sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+  <p>Ut enim ad minim veniam, quis nostrud</p>
+  <p>exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+  <p>Duis aute irure dolor in reprehenderit in voluptate velit</p>
+  <p>esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat</p>
+  <p>non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
   <footer>
-        <div class="containert">
+        <div class="contenedor">
             <div class="footer-content">
                 <h3>Algo Importante</h3>
                 <p>Esperemos que ésto nos salga bonito</p>
@@ -31,85 +36,42 @@
 </template>
 
 <style>
-footer{
-        background:#dfb14f;
-        padding-top: 50px;
+    footer {
+        background:#95D8E0;
+        padding-top: 40px;
     }
-    .containert{
+    .contenedor {
         width: 1140px;
         margin: auto;
         display: flex;
         justify-content: center;
     }
-    .footer-content{
-        width: 33.3%;
+    .footer-content {
+        width: 25%;
     }
-    h3{
+    h3 {
         font-size: 20px;
         margin-bottom: 15px;
         text-align: center;
     }
-    .footer-content p{
+    .footer-content p {
         width:190px;
         margin: auto;
         padding: 7px;
     }
-    .footer-content ul{
-        text-align: center;
-    }
-    .list{
-        padding: 0;
-    }
-    .list li{
-        width: auto;
-        text-align: center;
-        list-style-type:none;
-        padding: 7px;
-        position: relative;
-    }
-    .list li::before{
-        content: '';
-        position: absolute;
-        transform: translate(-50%,-50%);
-        left: 50%;
-        top: 100%;
-        width: 0;
-        height: 2px;
-        background: #f18930;
-        transition-duration: .5s;
-    }
-    .list li:hover::before{
-        width: 70px;
-    }
-    .social-icons{
-        text-align: center;
-        padding: 0;
-    }
-    .social-icons li{
-        display: inline-block;
-        text-align: center;
-        padding: 5px;
-    }
-    .social-icons i{
-        color: white;
-        font-size: 15px;
-    }
-    a{
+    a {
         text-decoration: none;
     }
-    a:hover{
-        color: #f18930;
+    a:hover {
+        color: #FFFFFF;
     }
-    .social-icons i:hover{
-        color: #f18930;
-    }
-    .bottom-bar{
+    .bottom-bar {
         background: #f18930;
         text-align: center;
         padding: 10px 0;
         margin-top: 50px;
     }
-    .bottom-bar p{
+    .bottom-bar p {
         color: #343434;
         margin: 0;
         font-size: 16px;
