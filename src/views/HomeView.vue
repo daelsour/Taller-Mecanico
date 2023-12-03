@@ -15,44 +15,34 @@
   <br>
   <footer>
     <h2 class="titulo-seccion"><center>Contacto</center></h2>
-          <h3>Ponte en contacto ahora mismo!</h3>
-        <div class="contenedor">
-            <div class="footer-content">
-                <div class="col">
-          <h2>
-      <i class="fa-solid fa-phone"></i> Teléfono
-      </h2>
-      <span class="info-contacto">4813521562</span>
-      </div>
-            </div>
-            <div class="footer-content">
-        <div class="col">
-      <h2>
-      <i class="fa-solid fa-envelope"></i> Correo
-      </h2>
-      <span class="info-contacto">tallermecanico@gmail.com</span>
-        </div>
-        
-            </div>
-            <div class="footer-content">
-                <div class="col">
-      
-        <h3>Redes Sociales</h3>
-                <ul class="social-icons">
-                 <li><a href="https://web.facebook.com/taller.mecanico.luna.2023"><i class="fab fa-facebook"></i></a></li>
-                 <li><a href="https://twitter.com/login"><i class="fab fa-twitter"></i></a></li>
-                 <li><a href="https://www.instagram.com/"><i class="fab fa-instagram"></i></a></li>
-                 <li><a href="https://web.telegram.org/"><i class="fab fa-telegram"></i></a></li>
-                </ul>
+        <h3>Ponte en contacto ahora mismo!</h3>
+            <div class="contenedor">
+                <div class="footer-content">
+                    <div class="col">
+                        <h2><i class="fa-solid fa-phone"></i></h2>
+                        <span class="info-contacto">481-352-1562</span>
+                    </div>
                 </div>
-     </div>
-            
-                
-        </div>
-        
-        </footer>
+                <div class="footer-content">
+                    <div class="col">
+                        <h2><i class="fa-solid fa-envelope"></i></h2>
+                        <span class="info-contacto">tallermecanico@gmail.com</span>
+                    </div>
+                </div>
+                <div class="footer-content">
+                    <div class="col">
+                        <h3>Redes Sociales</h3>
+                            <ul class="social-icons">
+                                <li><a href="https://web.facebook.com/"><i class="fab fa-facebook"></i></a></li>
+                                <li><a href="https://twitter.com/"><i class="fab fa-twitter"></i></a></li>
+                                <li><a href="https://www.instagram.com/"><i class="fab fa-instagram"></i></a></li>
+                                <li><a href="https://web.telegram.org/"><i class="fab fa-telegram"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </footer>
 </template>
-
 <style>
     footer {
         background:#95D8E0;
