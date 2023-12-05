@@ -44,12 +44,16 @@
             </footer>
 </template>
 <style>
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Agbalumo&family=Great+Vibes&display=swap');
+
     footer {
         background:#95D8E0;
-        padding-top: 40px;
+        padding-top: 15px;
     }
     .contenedor {
         width: 1140px;
+        height: 110px;
         margin: auto;
         display: flex;
         justify-content: center;
@@ -61,17 +65,21 @@
         font-size: 20px;
         margin-bottom: 15px;
         text-align: center;
+        font-family: 'Poppins', serif;
     }
     .footer-content p {
         width:190px;
         margin: auto;
         padding: 7px;
+        font-family: 'Poppins', serif;
     }
     a {
         text-decoration: none;
+        font-family: 'Poppins', serif;
     }
     a:hover {
         color: #FFFFFF;
+        font-family: 'Poppins', serif;
     }
     .bottom-bar {
         background: #f18930;
@@ -84,5 +92,6 @@
         margin: 0;
         font-size: 16px;
         padding: 7px;
+        font-family: 'Poppins', serif;
     }
 </style>

@@ -1,6 +1,11 @@
 <template>
     <div id="app">
-  <nav class="navbar">
+    <div class="nav-top">
+    <ul>
+    <li><a><router-link to="/">Inicio</router-link></a></li>
+    </ul>
+    </div>
+  <div class="navbar">
    <ul>
         <li><a><router-link to="/">Inicio</router-link></a></li>
         <li><a><router-link to="/inv">Inventario</router-link></a> </li>
@@ -9,8 +14,9 @@
         <li><a><router-link to="/pago">Pagos</router-link></a></li>
         <li><a><router-link to="/repo">Reportes</router-link></a></li>                        
      </ul>
-    </nav>
+    </div>
 </div>
+
 <router-view/>
 </template>
 
@@ -29,12 +35,19 @@
     --color-white: #000000;
     --color-black: #F5F1F1;
   }
+  .nav-top {
+    background: rgb(55, 150, 179);
+     font-family: 'Poppins', serif;
+     padding-right: 15px;
+     padding-left: 15px;
+     padding: 0 5%;
+  }
   .navbar{
      background: rgb(218, 249, 246);
      font-family: 'Poppins', serif;
      padding-right: 15px;
      padding-left: 15px;
-     padding: 0 5%;
+     padding: 0 15%;
    }
    .navdiv{
      display: flex; 
