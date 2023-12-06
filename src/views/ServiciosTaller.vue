@@ -10,7 +10,7 @@ Frenos, Suspensiones, Cambio de aceite y Filtro, Servicio Menor y Servicio Mayor
     </div>
 </div>
         <div class="cad">
-            <img src="../assets/mecanica1.jpg">    
+            <img src="../assets/Auxilios.jpg">    
         <div class="conteniido-cad">
     <h3>AUXILIOS EN RUTA</h3>
     <p>Contamos con una cuadrilla de atención urgente en vía pública y carretera.</p>
@@ -18,14 +18,14 @@ Frenos, Suspensiones, Cambio de aceite y Filtro, Servicio Menor y Servicio Mayor
      </div>
 
      <div class="cad">
-        <img src="../assets/mecanica3.jpg">  
+        <img src="../assets/mecanica1.jpg">  
         <div class="conteniido-cad">
     <h3>SERVICIOS ESPECIALIZADOS DE REPARACIÓN</h3>
     <p>Fallas complicadas, Transmisiones, Motores, Direcciones, Bombas, Sistemas Hidráulicos y Frenos de Aire, Ejes, Diferenciales, Transfer, Turbos, Inyectores, Hojalatería / Pintura y Estética, Alarmas, Chapas, Chips, Inmovilizadores, Reprogramaciones, Elevadores, Vidrios, Polarizados de seguridad, Tapicería, Climas A/C , Torretas, Accesorios y Aditamentos Especiales.</p>
         </div>
      </div>
      <div class="cad">
-      <img src="../assets/mecanica4.jpg">  
+      <img src="../assets/mecanica2.jpg">  
         <div class="conteniido-cad">
     <h3>SERVICIO PARA AUTOS PREMIUM Y POPULARES</h3>
     <p>Deja tu auto en buenas manos, somos especialistas en autos de marcas premium como: BMW, Audi, Mercedez, Lincoln, entre otras. </p>
