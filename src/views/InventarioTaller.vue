@@ -46,6 +46,8 @@
             <span>Equipo de Seguridad</span>
                 <p>Gafas de seguridad, guantes de trabajo, cascos y protectores auditivos</p>
         </div>
+        <button class="viewmore"><a href="/inv">Ver más</a></button>
+
     </div>
 
   <p>"El sitio web de éste taller mecánico NO<br>

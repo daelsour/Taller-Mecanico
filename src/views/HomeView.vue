@@ -1,5 +1,6 @@
-<template>
+<template> 
  <div id="slider">
+    <h1><center>Taller Mecanico</center></h1>
         <figure>
         <img src="../assets/taller.png" alt="">
         <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQqut5SKDQEl6-Hw9o9BUYiX0Q0jbuPkVSsoET7IiJzJ3pkhJ9zd7-EBBg2WL9mvzeUOt8&usqp=CAU" alt="">
@@ -13,44 +14,41 @@
         <img src="https://lh3.googleusercontent.com/p/AF1QipPrbcULwwditvTzMyap35EJsr6Tz0RnpPH8j49n=w768-h768-n-o-v1" alt="">
         </figure>
         </div>
-  <div class="card">
-        <div class="information">
-            <span>Agenda tu cita</span>
-                <p>ahorra tiempo en tu llegada al taller mecánico</p>
-                <button class="viewmore"><a href="/citas">Agendar cita</a></button>
-        </div>
-    </div>
-    <div class="card-1">
-        <div class="information-1">
-            <span>Servicio</span>
-                <p>Visualiza los distintos servicios que te ofrecemos</p>
-                <button class="viewmore"><a href="/inv">Ver servicios</a></button>
-        </div>
-    </div>
-    <div class="card-2">
-        <div class="information-2">
-            <span>Miembros</span>
-                <p>Conoce al equipo de desarrollo</p>
-                <button class="viewmore"><a href="/meet">Conócenos</a></button>
-        </div>
-    </div>
-    <p>©️</p>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
+  <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit,<br>
+  sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<br>
+  Ut enim ad minim veniam, quis nostrud<br>
+  exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.<br>
+  Duis aute irure dolor in reprehenderit in voluptate velit<br>
+  esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat<br>
+  non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
+  <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit,<br>
+  sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<br>
+  Ut enim ad minim veniam, quis nostrud<br>
+  exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.<br>
+  Duis aute irure dolor in reprehenderit in voluptate velit<br>
+  esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat<br>
+  non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
+    <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit,<br>
+  sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<br>
+  Ut enim ad minim veniam, quis nostrud<br>
+  exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.<br>
+  Duis aute irure dolor in reprehenderit in voluptate velit<br>
+  esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat<br>
+  non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
+    <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit,<br>
+  sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<br>
+  Ut enim ad minim veniam, quis nostrud<br>
+  exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.<br>
+  Duis aute irure dolor in reprehenderit in voluptate velit<br>
+  esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat<br>
+  non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
+    <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit,<br>
+  sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<br>
+  Ut enim ad minim veniam, quis nostrud<br>
+  exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.<br>
+  Duis aute irure dolor in reprehenderit in voluptate velit<br>
+  esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat<br>
+  non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
   <footer>
     <h2 class="titulo-seccion"><center>Contacto</center></h2>
         <h3>Ponte en contacto ahora mismo!</h3>
