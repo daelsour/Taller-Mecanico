@@ -1,5 +1,6 @@
 <template>
-  <h1>TALLER MECANICO</h1>
+  <h1><center>TALLER MECANICO</center></h1>
+  <h1><center>Nuestros Servicios</center></h1>
   <div class="containeer-cad">
     <div class="cad">
         <img src="../assets/mecanica.jpg">  
@@ -32,7 +33,8 @@ Frenos, Suspensiones, Cambio de aceite y Filtro, Servicio Menor y Servicio Mayor
         </div>
      </div>
 
-     
+   
+    
 
 </div>
 </template>

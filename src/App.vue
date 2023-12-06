@@ -1,7 +1,8 @@
 <template>
 
   <div id="app">
-    
+   
+        
     <div class="navbar">
       <ul>
         <li><a><router-link to="/">Inicio</router-link></a></li>

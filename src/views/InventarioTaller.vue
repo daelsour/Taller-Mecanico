@@ -4,7 +4,8 @@
             <span>Herramientas Manuales</span>
                 <p>Add some text</p>
         </div>
-        <button class="viewmore"><a href="/inv">Ver más</a></button>
+        <button class="viewmore"><a href="/inv">Ver más</a> </button>
+       
     </div>
     <div class="card-1">
         <div class="information-1">
@@ -54,6 +55,7 @@
                 <p>Add some text</p>
         </div>
         <button class="viewmore"><a href="/inv">Ver más</a></button>
+
     </div>
 
   <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit,<br>

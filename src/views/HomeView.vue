@@ -1,6 +1,6 @@
-<template>
-    
+<template> 
  <div id="slider">
+    <h1><center>Taller Mecanico</center></h1>
         <figure>
         <img src="../assets/taller.png" alt="">
         <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQqut5SKDQEl6-Hw9o9BUYiX0Q0jbuPkVSsoET7IiJzJ3pkhJ9zd7-EBBg2WL9mvzeUOt8&usqp=CAU" alt="">
@@ -14,6 +14,7 @@
         <img src="https://lh3.googleusercontent.com/p/AF1QipPrbcULwwditvTzMyap35EJsr6Tz0RnpPH8j49n=w768-h768-n-o-v1" alt="">
         </figure>
         </div>
+       
   <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit,<br>
   sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<br>
   Ut enim ad minim veniam, quis nostrud<br>
