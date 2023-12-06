@@ -1,10 +1,10 @@
 <template>
-  <h1>TALLER MECANICO</h1>
+  <h1>SERVICIOS</h1>
   <div class="containeer-cad">
     <div class="cad">
         <img src="../assets/mecanica.jpg">  
     <div class="conteniido-cad">
-    <h3>SERVICIO DE MECÁNICA EXPRESSr</h3>
+    <h3>SERVICIO DE MECÁNICA EXPRESS</h3>
   <p>
 Frenos, Suspensiones, Cambio de aceite y Filtro, Servicio Menor y Servicio Mayor, Luces, Marchas, Alternadores, Acumuladores, Llantas, Alineación y Balanceo, Lubricación y Ajuste de Niveles, Estética Automotriz.</p>
     </div>
@@ -31,12 +31,13 @@ Frenos, Suspensiones, Cambio de aceite y Filtro, Servicio Menor y Servicio Mayor
     <p>Deja tu auto en buenas manos, somos especialistas en autos de marcas premium como: BMW, Audi, Mercedez, Lincoln, entre otras. </p>
         </div>
      </div>
-
-     
-
 </div>
 </template>
 <style>
+h1 {
+  font-family: "Microsoft Sans Serif";
+  font-size: 20px;
+}
 /*Cards*/
 .containeer-cad{
 position: 100;

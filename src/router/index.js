@@ -5,6 +5,7 @@ import ServiciosTaller from '../views/ServiciosTaller.vue'
 import CitasTaller from '../views/CitasTaller.vue'
 import PagosTaller from '../views/PagosTaller.vue'
 import ReportesTaller from '../views/ReportesTaller.vue'
+import TeamTaller from '../views/TeamTaller.vue'
 
 const routes = [
   {
@@ -36,6 +37,11 @@ const routes = [
     path: '/repo',
     name: '/repo',
     component: ReportesTaller
+  },
+  {
+    path: '/meet',
+    name: '/meet',
+    component: TeamTaller
   }
 ]
 

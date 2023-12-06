@@ -2,67 +2,55 @@
     <div class="card">
         <div class="information">
             <span>Herramientas Manuales</span>
-                <p>Add some text</p>
+                <p>Llaves inglesas, de trinquete, de tubo, destornilladores, martillos, alicates, juegos de destornilladores, llaves de ajuste y limas</p>
         </div>
-        <button class="viewmore"><a href="/inv">Ver más</a></button>
     </div>
     <div class="card-1">
         <div class="information-1">
             <span>Herramientas Eléctricas</span>
-                <p>Add some text</p>
+                <p>Taladros y lijadoras electricas, pistolas de calor, sierras electricas, amoladoras angulares, taladros de impacto y pulidoras</p>
         </div>
-        <button class="viewmore"><a href="/inv">Ver más</a></button>
     </div>
     <div class="card-2">
         <div class="information-2">
             <span>Herramientas Neumáticas</span>
-                <p>Add some text</p>
+                <p>Pistolas de aire, llaves de impacto neumáticas, taladros y lijadores neumáticos, pistolas de grapas y de pintura neumáticas</p>
         </div>
-        <button class="viewmore"><a href="/inv">Ver más</a></button>
     </div>
     <div class="card-3">
         <div class="information-3">
             <span>Herramientas de Medición</span>
-                <p>Add some text</p>
+                <p>Calibradores vernier, cintas métricas, niveles, micrómetros, goniómetros y manómetros</p>
         </div>
-        <button class="viewmore"><a href="/inv">Ver más</a></button>
     </div>
     <div class="card-4">
         <div class="information-4">
             <span>Elevación y Soporte</span>
-                <p>Add some text</p>
+                <p>Gatos hidráulicos, gatos de tijera y de botella, rampas para automóviles y caballetes.</p>
         </div>
-        <button class="viewmore"><a href="/inv">Ver más</a></button>
     </div>
     <div class="card-5">
         <div class="information-5">
             <span>Herramientas de Soldadura</span>
-                <p>Add some text</p>
+                <p>Soldadores de arco, soldadores MIG/TIG, gafas de soldador, guantes de soldadura, martillo y cepillo para soldadura</p>
         </div>
-        <button class="viewmore"><a href="/inv">Ver más</a></button>
     </div>
     <div class="card-6">
         <div class="information-6">
             <span>Herramientas de Mano Especiales</span>
-                <p>Add some text</p>
+                <p>Extractores de rodamientos, llaves de filtro de aceite, llaves de bujías, herramientas para alinear ruedas, herramientas para abocardar tubos</p>
         </div>
-        <button class="viewmore"><a href="/inv">Ver más</a></button>
     </div>
     <div class="card-7">
         <div class="information-7">
             <span>Equipo de Seguridad</span>
-                <p>Add some text</p>
+                <p>Gafas de seguridad, guantes de trabajo, cascos y protectores auditivos</p>
         </div>
-        <button class="viewmore"><a href="/inv">Ver más</a></button>
     </div>
 
-  <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit,<br>
-  sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<br>
-  Ut enim ad minim veniam, quis nostrud<br>
-  exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.<br>
-  Duis aute irure dolor in reprehenderit in voluptate velit<br>
-  esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat<br>
-  non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>    
+  <p>"El sitio web de éste taller mecánico NO<br>
+  se hace responsable por absolutamente nada de lo que<br>
+  establezca aquí"</p>    
 
 <footer>
     <h2 class="titulo-seccion"><center>Contacto</center></h2>
@@ -102,7 +90,10 @@
 </template>
 
 <style>
-
+p{
+        text-align: center;
+        font-family: 'Poppins', serif;
+}
 footer {
         background:#95D8E0;
         padding-top: 15px;
@@ -193,9 +184,9 @@ footer {
 }
 .information span {
   font-weight: 590;
-  font-size: 23px;
+  font-size: 25px;
   color: #161A42;
-  margin-top: 2px;
+  margin-top: 25px;
   line-height: 15px;
   font-family: 'Microsoft Sans Serif';
 }
@@ -290,9 +281,9 @@ footer {
 }
 .information-1 span {
   font-weight: 590;
-  font-size: 23px;
+  font-size: 25px;
   color: #161A42;
-  margin-top: 2px;
+  margin-top: 10px;
   line-height: 24px;
   font-family: 'Microsoft Sans Serif';
 }
@@ -389,9 +380,9 @@ footer {
 }
 .information-2 span {
   font-weight: 590;
-  font-size: 23px;
+  font-size: 25px;
   color: #161A42;
-  margin-top: 2px;
+  margin-top: 10px;
   line-height: 24px;
   font-family: 'Microsoft Sans Serif';
 }
@@ -486,9 +477,9 @@ footer {
 }
 .information-3 span {
   font-weight: 590;
-  font-size: 23px;
+  font-size: 25px;
   color: #161A42;
-  margin-top: 2px;
+  margin-top: 10px;
   line-height: 24px;
   font-family: 'Microsoft Sans Serif';
 }
@@ -583,9 +574,9 @@ footer {
 }
 .information-4 span {
   font-weight: 590;
-  font-size: 23px;
+  font-size: 25px;
   color: #161A42;
-  margin-top: 2px;
+  margin-top: 10px;
   line-height: 24px;
   font-family: 'Microsoft Sans Serif';
 }
@@ -680,9 +671,9 @@ footer {
 }
 .information-5 span {
   font-weight: 590;
-  font-size: 23px;
+  font-size: 25px;
   color: #161A42;
-  margin-top: 2px;
+  margin-top: 10px;
   line-height: 24px;
   font-family: 'Microsoft Sans Serif';
 }
@@ -777,9 +768,9 @@ footer {
 }
 .information-6 span {
   font-weight: 590;
-  font-size: 23px;
+  font-size: 25px;
   color: #161A42;
-  margin-top: 2px;
+  margin-top: 10px;
   line-height: 24px;
   font-family: 'Microsoft Sans Serif';
 }
@@ -874,9 +865,9 @@ footer {
 }
 .information-7 span {
   font-weight: 590;
-  font-size: 23px;
+  font-size: 25px;
   color: #161A42;
-  margin-top: 2px;
+  margin-top: 10px;
   line-height: 24px;
   font-family: 'Microsoft Sans Serif';
 }
