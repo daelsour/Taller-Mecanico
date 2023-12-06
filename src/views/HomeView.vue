@@ -1,5 +1,6 @@
 <template>
-       <div id="slider">
+    
+ <div id="slider">
         <figure>
         <img src="../assets/taller.png" alt="">
         <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQqut5SKDQEl6-Hw9o9BUYiX0Q0jbuPkVSsoET7IiJzJ3pkhJ9zd7-EBBg2WL9mvzeUOt8&usqp=CAU" alt="">
