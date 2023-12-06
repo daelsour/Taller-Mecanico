@@ -1,5 +1,5 @@
 <template>
-  <h1><center>TALLER MECANICO</center></h1>
+  <h1><center></center></h1>
   <h1><center>Nuestros Servicios</center></h1>
   <div class="containeer-cad">
     <div class="cad">
@@ -57,12 +57,12 @@ right:8%;
   border-radius: 6px;
   overflow: hidden;
   background:#ffffff;
-  box-shadow: 0px 1px 10px rgba(255, 0, 0, 0.2);
+  box-shadow: 0px 1px 10px rgba(17, 48, 68, 0.8);
   transition: all 400ms ease-out;
   cursor: default;
 }
 .cad:hover{
-  box-shadow: 5px 5px 20px rgba(194, 43, 43, 0.295);
+  box-shadow: 5px 5px 20px rgb(11, 189, 233);
   transform: translateY(-3%);
 }
 .cad img{
