@@ -1,5 +1,6 @@
 <template>
   <div id="app">
+    <h2 align="center">Taller Mecanico</h2>
     <div class="navbar">
       <ul>
         <li><a><router-link to="/">Inicio</router-link></a></li>
