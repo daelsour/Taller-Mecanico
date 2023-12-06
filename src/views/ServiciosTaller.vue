@@ -1,75 +1,92 @@
 <template>
-  <h1><center>Nuestros servicios</center></h1>
-  
-  <h1><center>TALLER MECANICO</center></h1>
-   <div>
-  <img src="../assets/mecanica.jpg" width="100" height="100"  style="float:left;"> 
-  <div>SERVICIO DE MECÁNICA EXPRESS
-<p>Frenos, Suspensiones, Cambio de aceite y Filtro, Servicio</p>
-<p>Menor y Servicio Mayor,Luces, Marchas, Alternadores, Acumul</p>
-<p>adores, Llantas, Alineación y Balanceo,Lubricación y Ajuste</p>
-<p>de Niveles, Estética Automotriz</p></div> 
+  <h1>TALLER MECANICO</h1>
+  <div class="containeer-cad">
+    <div class="cad">
+        <img src="../assets/mecanica.jpg">  
+    <div class="conteniido-cad">
+    <h3>SERVICIO DE MECÁNICA EXPRESSr</h3>
+  <p>
+Frenos, Suspensiones, Cambio de aceite y Filtro, Servicio Menor y Servicio Mayor, Luces, Marchas, Alternadores, Acumuladores, Llantas, Alineación y Balanceo, Lubricación y Ajuste de Niveles, Estética Automotriz.</p>
+    </div>
 </div>
-<br>
-<br>
- 
-<div>
-  <img src="../assets/mecanica1.jpg" width="100" height="100"  style="float:left;"> 
-  <div>SERVICIOS ESPECIALIZADOS DE REPARACIÓN
-<p>Fallas complicadas, Transmisiones, Motores, Direcciones, Bombas,</p>
-<p> Sistemas Hidráulicos y Frenos de Aire, Ejes, Diferenciales, </p>
-<p>Transfer, Turbos, Inyectores, Hojalatería / Pintura y Estética,</p>
-<p>Alarmas, Chapas, Chips, Inmovilizadores, Reprogramaciones,</p>
-<p>Elevadores, Vidrios, Polarizados de seguridad, Tapicería, Climas A/C ,</p>
-<p> Torretas, Accesorios y Aditamentos Especiales.</p>
-</div>
-</div>
-<br>
-<br>
-<div>
-  <img src="../assets/mecanica2.jpg" width="100" height="100"  style="float:left;"> 
-  <div>SERVICIO PARA AUTOS PREMIUM Y POPULARES
-<p>Deja tu auto en buenas manos, somos especialistas</p>
-<p>en autos de marcas premium como: BMW, Audi, Mercedez,</p>
-<p>Lincoln, entre otras.</p>
-</div>
-</div>
-<h1><center>TALLER ELECTRICO</center></h1>
-<div>
-<img src="../assets/mecanica3.jpg" width="100" height="100"  style="float:left;"> 
-  <div>REPARACIÓN
-<p>Como expertos en el sistema eléctrico automotriz, trabajamos con altos estándares</p>
-  <p>de calidad para que tu vehículo funcione a la perfección. Contamos con tecnología </p>
-    <p> de última generación para detectar cualquier falla en el sistema eléctrico automotriz</p>
-      <p>Alternadores</p>
-        <p>Baterías</p>
-          <p>Computadora o módulos eléctronicos del vehículos</p>
-            <p>Luces</p>
-              <p>Marchas</p>
-                <p>Red de comunicación</p>
-                  <p>Sensores</p>
-</div>
-</div>
-<br>
-<br>
-<h1><center>REPARACION DE MOTOR</center></h1>
-<div>
-<img src="../assets/mecanica4.jpg" width="100" height="100"  style="float:left;"> 
-  <div>REPARACIÓN DE MOTOR
-<p>Acude con verdaderos expertos en reparaciones de motores. Nuestro personal</p>
-   <p>te proporcionará asesoría personalizada para conocer el problema y dar un diagnóstico</p>
-  <p>certero.</p>
-<p>Reparación General de Motor.</p>
-<p>Empacadas de Motor</p>
-<p>Reparaciones de Cabeza de Motor</p>
-  </div>
-  </div>
-</template>
+        <div class="cad">
+            <img src="../assets/mecanica1.jpg">    
+        <div class="conteniido-cad">
+    <h3>AUXILIOS EN RUTA</h3>
+    <p>Contamos con una cuadrilla de atención urgente en vía pública y carretera.</p>
+        </div>
+     </div>
 
+     <div class="cad">
+        <img src="../assets/mecanica3.jpg">  
+        <div class="conteniido-cad">
+    <h3>SERVICIOS ESPECIALIZADOS DE REPARACIÓN</h3>
+    <p>Fallas complicadas, Transmisiones, Motores, Direcciones, Bombas, Sistemas Hidráulicos y Frenos de Aire, Ejes, Diferenciales, Transfer, Turbos, Inyectores, Hojalatería / Pintura y Estética, Alarmas, Chapas, Chips, Inmovilizadores, Reprogramaciones, Elevadores, Vidrios, Polarizados de seguridad, Tapicería, Climas A/C , Torretas, Accesorios y Aditamentos Especiales.</p>
+        </div>
+     </div>
+     <div class="cad">
+      <img src="../assets/mecanica4.jpg">  
+        <div class="conteniido-cad">
+    <h3>SERVICIO PARA AUTOS PREMIUM Y POPULARES</h3>
+    <p>Deja tu auto en buenas manos, somos especialistas en autos de marcas premium como: BMW, Audi, Mercedez, Lincoln, entre otras. </p>
+        </div>
+     </div>
+
+     
+
+</div>
+</template>
 <style>
-body {
-  text-align: left;
+/*Cards*/
+.containeer-cad{
+position: 100;
+  width: 100%;
+  display: flex;
+  font-family: 'Poppins', monospace;
+  max-width: 1515px;
+  margin: auto;
+top:120%;
+right:8%;
 }
-img { float:left; }
-img { float:right; }
+
+.cad{
+  width: 100%;
+  margin: 10px;
+  border-radius: 6px;
+  overflow: hidden;
+  background:#ffffff;
+  box-shadow: 0px 1px 10px rgba(255, 0, 0, 0.2);
+  transition: all 400ms ease-out;
+  cursor: default;
+}
+.cad:hover{
+  box-shadow: 5px 5px 20px rgba(194, 43, 43, 0.295);
+  transform: translateY(-3%);
+}
+.cad img{
+  width: 100%;
+  height: 200px;
+}
+.cad .conteniido-cad{
+  padding: 15px;
+  text-align: center;
+}
+.cad .conteniido-cad h3{
+  margin-bottom: 15px;
+  color: rgba(0, 0, 0, 0.979);
+}
+.cad .conteniido-cad p{
+  line-height: 1.8;
+  color: #000000;
+  font-size: 14px;
+  margin-bottom: 5px;
+}
+@media only screen and (min-width:320px) and (max-width:768px){
+  .containeer-cad{
+      flex-wrap: wrap;
+  }
+  .cad{
+      margin: 15px;
+  }
+}
 </style>
