@@ -1,18 +1,39 @@
 <template>
-  <h2>kkkk</h2>
-  <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit,</p>
-  <p>sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-  <p>Ut enim ad minim veniam, quis nostrud</p>
-  <p>exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-  <p>Duis aute irure dolor in reprehenderit in voluptate velit</p>
-  <p>esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat</p>
-  <p>non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
+  <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit,<br>
+  sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<br>
+  Ut enim ad minim veniam, quis nostrud<br>
+  exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.<br>
+  Duis aute irure dolor in reprehenderit in voluptate velit<br>
+  esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat<br>
+  non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
+  <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit,<br>
+  sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<br>
+  Ut enim ad minim veniam, quis nostrud<br>
+  exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.<br>
+  Duis aute irure dolor in reprehenderit in voluptate velit<br>
+  esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat<br>
+  non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
+    <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit,<br>
+  sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<br>
+  Ut enim ad minim veniam, quis nostrud<br>
+  exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.<br>
+  Duis aute irure dolor in reprehenderit in voluptate velit<br>
+  esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat<br>
+  non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
+    <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit,<br>
+  sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<br>
+  Ut enim ad minim veniam, quis nostrud<br>
+  exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.<br>
+  Duis aute irure dolor in reprehenderit in voluptate velit<br>
+  esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat<br>
+  non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
+    <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit,<br>
+  sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<br>
+  Ut enim ad minim veniam, quis nostrud<br>
+  exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.<br>
+  Duis aute irure dolor in reprehenderit in voluptate velit<br>
+  esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat<br>
+  non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
   <footer>
     <h2 class="titulo-seccion"><center>Contacto</center></h2>
         <h3>Ponte en contacto ahora mismo!</h3>
@@ -40,6 +61,12 @@
                             </ul>
                         </div>
                     </div>
+                    <div class="col">
+                        
+                            <ul class="login">
+                                <li><a href="">Login</a></li>
+                            </ul>
+                        </div>
                 </div>
             </footer>
 </template>
@@ -53,7 +80,7 @@
     }
     .contenedor {
         width: 1140px;
-        height: 110px;
+        height: 120px;
         margin: auto;
         display: flex;
         justify-content: center;
@@ -62,6 +89,12 @@
         width: 25%;
     }
     h3 {
+        font-size: 15px;
+        margin-bottom: 15px;
+        text-align: center;
+        font-family: 'Poppins', serif;
+    }
+    h2 {
         font-size: 20px;
         margin-bottom: 15px;
         text-align: center;
@@ -71,10 +104,12 @@
         width:190px;
         margin: auto;
         padding: 7px;
+        text-align: center;
         font-family: 'Poppins', serif;
     }
     a {
         text-decoration: none;
+        text-align: center;
         font-family: 'Poppins', serif;
     }
     a:hover {
