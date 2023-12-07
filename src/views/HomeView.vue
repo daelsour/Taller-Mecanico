@@ -1,7 +1,22 @@
 <template> 
-  <img class="yessi" src="../assets/taller.png" />
- 
-      
+  <img class="yessi" src="../assets/yessi.jpg" />
+  <br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+
   <h1 class="Letre">Mas de 20 Años a tu<span> Servicio</span></h1>
 
   <button class="btnr">
@@ -24,22 +39,6 @@
   <h1 class="je">Servicios con hasta <br>6 meses  de garantia</h1>
   <h1 class="ji">Recoleccion a domicilio</h1>
   <h1 class="jo">Auxilios en Ruta/ <br>Carretero y Grua</h1>
-<br>
-<br>
-<br>
-
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
 <br>
 <br>
 <br>
@@ -70,9 +69,6 @@
         <img src="https://lh3.googleusercontent.com/p/AF1QipPrbcULwwditvTzMyap35EJsr6Tz0RnpPH8j49n=w768-h768-n-o-v1" alt="">
         </figure>
         </div>
-        <br>
-<br>
-<br>
 <br>
 <br>
 <br>
@@ -128,6 +124,7 @@
                         </div>
                 </div>
             </footer>
+           
 </template>
 <style>
 .yessi {
@@ -136,8 +133,9 @@
 }
 .meda {
   width: 1350px;
-  height: 500px;
+  height: 600px;
 }
+
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Agbalumo&family=Great+Vibes&display=swap');
 .card {
