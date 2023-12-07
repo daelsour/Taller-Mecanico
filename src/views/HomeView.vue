@@ -1,6 +1,62 @@
 <template> 
- <div id="slider">
-    <h1><center>Taller Mecanico</center></h1>
+  <img class="yessi" src="../assets/taller.png" />
+ 
+      
+  <h1 class="Letre">Mas de 20 Años a tu<span> Servicio</span></h1>
+
+  <button class="btnr">
+    <a href=""><img src="../assets/1.png"></a>
+  </button>
+
+  <button class="btnn">
+    <a href=""><img src="../assets/2.png"></a>
+  </button>
+
+  <button class="btnnr">
+    <a href=""><img src="../assets/3.png"></a>
+  </button>
+
+  <button class="bt">
+    <a href=""><img src="../assets/4.png"></a>
+  </button>
+
+  <h1 class="ja">20años de experiencia</h1>
+  <h1 class="je">Servicios con hasta <br>6 meses  de garantia</h1>
+  <h1 class="ji">Recoleccion a domicilio</h1>
+  <h1 class="jo">Auxilios en Ruta/ <br>Carretero y Grua</h1>
+<br>
+<br>
+<br>
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+<div id="slider">
+   
         <figure>
         <img src="../assets/taller.png" alt="">
         <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQqut5SKDQEl6-Hw9o9BUYiX0Q0jbuPkVSsoET7IiJzJ3pkhJ9zd7-EBBg2WL9mvzeUOt8&usqp=CAU" alt="">
@@ -14,20 +70,25 @@
         <img src="https://lh3.googleusercontent.com/p/AF1QipPrbcULwwditvTzMyap35EJsr6Tz0RnpPH8j49n=w768-h768-n-o-v1" alt="">
         </figure>
         </div>
-  <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit,<br>
-  sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<br>
-  Ut enim ad minim veniam, quis nostrud<br>
-  exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.<br>
-  Duis aute irure dolor in reprehenderit in voluptate velit<br>
-  esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat<br>
-  non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
-  <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit,<br>
-  sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<br>
-  Ut enim ad minim veniam, quis nostrud<br>
-  exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.<br>
-  Duis aute irure dolor in reprehenderit in voluptate velit<br>
-  esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat<br>
-  non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
+        <br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
   <footer>
     <h2 class="titulo-seccion"><center>Contacto</center></h2>
         <h3>Ponte en contacto ahora mismo!</h3>
@@ -69,6 +130,14 @@
             </footer>
 </template>
 <style>
+.yessi {
+  width: 1350px;
+  height: 500px;
+}
+.meda {
+  width: 1350px;
+  height: 500px;
+}
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Agbalumo&family=Great+Vibes&display=swap');
 .card {
@@ -188,7 +257,7 @@
 .card-1::before {
   content: "";
   width: 350px;
-  height: 130px;
+  height: 150px;
   position: absolute;
   top: 0;
   border-top-left-radius: 15px;
@@ -447,5 +516,129 @@ div#slider figure {
   .kiko{
   width: 1318px;
   height: 610px;
+}
+.Letre {
+  position: absolute;
+  top: 100%;
+  right: 30%;
+  font-family: 'Poppins', monospace;
+  color: rgb(255, 0, 170);
+  text-align: center;
+  font-size: 44px;
+}
+/* subrayando de letra */
+.Letre span {
+  color: #01dbf8;
+}
+/* boton1 de productos */
+.btnr img {
+  height: 140px;
+  width: 140px;
+  top: 118%;
+  right: 72%;
+  position: absolute;
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 50%;
+}
+.btnr:hover {
+  opacity: 0.50;
+  -moz-opacity: .50;
+  filter: alpha (opacity=50);
+}
+
+/* boton2 de productos */
+.btnn img {
+  height: 140px;
+  width: 140px;
+  top: 118%;
+  right: 50%;
+  position: absolute;
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 50%;
+}
+
+.btnn:hover {
+  opacity: 0.50;
+  -moz-opacity: .50;
+  filter: alpha (opacity=50);
+}
+
+/* boton3 de productos */
+.btnnr img {
+  height: 140px;
+  width: 140px;
+  top: 118%;
+  right: 30%;
+  position: absolute;
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 50%;
+}
+
+.btnnr:hover {
+  opacity: 0.50;
+  -moz-opacity: .50;
+  filter: alpha (opacity=50);
+}
+
+/* boton4 de productos */
+.bt img {
+  height: 140px;
+  width: 140px;
+  top: 118%;
+  right: 10%;
+  position: absolute;
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 50%;
+}
+.bt:hover {
+  opacity: 0.50;
+  -moz-opacity: .50;
+  filter: alpha (opacity=50);
+}
+
+/* letras de los botones */
+/* boton1 */
+.ja {
+  position: absolute;
+  top: 142%;
+  right: 72%;
+  font-family: 'Poppins', monospace;
+  color: #000000;
+  text-align: center;
+  font-size: 18px;
+}
+/* boton2 */
+.je {
+  position: absolute;
+  top: 142%;
+  right: 50%;
+  font-family: 'Poppins', monospace;
+  color: #000000;
+  text-align: center;
+  font-size: 18px;
+}
+/* boton3 */
+.ji {
+  position: absolute;
+  top: 142%;
+  right: 30%;
+  font-family: 'Poppins', monospace;
+  color: #000000;
+  text-align: center;
+  font-size: 18px;
+}
+/* boton4 */
+.jo {
+  position: absolute;
+  top: 142%;
+  right: 10%;
+  font-family: 'Poppins', monospace;
+  color: #000000;
+  text-align: center;
+  font-size: 18px;
 }
 </style>
