@@ -3,8 +3,6 @@ import HomeView from '../views/HomeView.vue'
 import InventarioTaller from '../views/InventarioTaller.vue'
 import ServiciosTaller from '../views/ServiciosTaller.vue'
 import CitasTaller from '../views/CitasTaller.vue'
-import PagosTaller from '../views/PagosTaller.vue'
-import ReportesTaller from '../views/ReportesTaller.vue'
 import TeamTaller from '../views/TeamTaller.vue'
 
 const routes = [
@@ -27,16 +25,6 @@ const routes = [
     path: '/citas',
     name: '/citas',
     component: CitasTaller
-  },
-  {
-    path: '/pago',
-    name: '/pago',
-    component: PagosTaller
-  },
-  {
-    path: '/repo',
-    name: '/repo',
-    component: ReportesTaller
   },
   {
     path: '/meet',

@@ -46,8 +46,6 @@
             <span>Equipo de Seguridad</span>
                 <p>Gafas de seguridad, guantes de trabajo, cascos y protectores auditivos</p>
         </div>
-        <button class="viewmore"><a href="/inv">Ver más</a></button>
-
     </div>
 
   <p>"El sitio web de éste taller mecánico NO<br>
@@ -82,9 +80,13 @@
                         </div>
                     </div>
                     <div class="col">
-                        
                             <ul class="login">
                                 <li><a href="">Login</a></li>
+                            </ul>
+                        </div>
+                        <div class="col">
+                            <ul class="meet">
+                                <li><a href="/meet">Conócenos</a></li>
                             </ul>
                         </div>
                 </div>

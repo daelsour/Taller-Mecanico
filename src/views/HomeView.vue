@@ -35,10 +35,10 @@
     <a href=""><img src="../assets/4.png"></a>
   </button>
 
-  <h1 class="ja">20años de experiencia</h1>
-  <h1 class="je">Servicios con hasta <br>6 meses  de garantia</h1>
-  <h1 class="ji">Recoleccion a domicilio</h1>
-  <h1 class="jo">Auxilios en Ruta/ <br>Carretero y Grua</h1>
+  <h1 class="ja">20 años de experiencia</h1>
+  <h1 class="je">Servicios con hasta <br>6 meses de garantía</h1>
+  <h1 class="ji">Recolección a domicilio</h1>
+  <h1 class="jo">Auxilios en Ruta/ <br>Carretero y Grúa</h1>
 <br>
 <br>
 <br>

@@ -8,9 +8,7 @@
         <li><a><router-link to="/">Inicio</router-link></a></li>
         <li><a><router-link to="/inv">Inventario</router-link></a> </li>
         <li><a><router-link to="/serv">Servicios</router-link></a> </li>
-        <li><a><router-link to="/citas">Citas</router-link></a></li>
-        <li><a><router-link to="/pago">Pagos</router-link></a></li>
-        <li><a><router-link to="/repo">Reportes</router-link></a></li>                        
+        <li><a><router-link to="/citas">Citas</router-link></a></li>                     
       </ul>
     </div>
   </div>
