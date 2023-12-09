@@ -3,7 +3,8 @@ import HomeView from '../views/HomeView.vue'
 import InventarioTaller from '../views/InventarioTaller.vue'
 import ServiciosTaller from '../views/ServiciosTaller.vue'
 import CitasTaller from '../views/CitasTaller.vue'
-import TeamTaller from '../views/TeamTaller.vue'
+import LoginTaller from '../views/Auth/LoginTaller.vue'
+import DashboardView from '../views/Auth/DashboardView.vue'
 
 const routes = [
   {
@@ -27,9 +28,14 @@ const routes = [
     component: CitasTaller
   },
   {
-    path: '/meet',
-    name: '/meet',
-    component: TeamTaller
+    path: '/login',
+    name: '/login',
+    component: LoginTaller
+  },
+  {
+    path: '/dashboard',
+    name: '/dashboard',
+    component: DashboardView
   }
 ]
 

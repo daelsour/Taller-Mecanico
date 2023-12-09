@@ -61,12 +61,7 @@ Frenos, Suspensiones, Cambio de aceite y Filtro, Servicio Menor y Servicio Mayor
                     </div>
                     <div class="col">
                             <ul class="login">
-                                <li><a href="">Login</a></li>
-                            </ul>
-                        </div>
-                        <div class="col">
-                            <ul class="meet">
-                                <li><a href="/meet">Conócenos</a></li>
+                                <li><a href="/login">🐧</a></li>
                             </ul>
                         </div>
                 </div>
@@ -124,7 +119,6 @@ h1 {
   font-family: "Microsoft Sans Serif";
   font-size: 20px;
 }
-/*Cards*/
 .containeer-cad{
 position: 100;
   width: 100%;

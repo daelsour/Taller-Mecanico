@@ -17,6 +17,7 @@
           </textarea>
         </div>
       </div>
+      <button class="comentar"><a href=" ">Enviar</a></button>
   </div>
 </section>
 <footer>
@@ -48,12 +49,7 @@
                     </div>
                     <div class="col">
                             <ul class="login">
-                                <li><a href="">Login</a></li>
-                            </ul>
-                        </div>
-                        <div class="col">
-                            <ul class="meet">
-                                <li><a href="/meet">Conócenos</a></li>
+                                <li><a href="/login">🐧</a></li>
                             </ul>
                         </div>
                 </div>
@@ -61,6 +57,16 @@
 </template>
 
 <style>
+.comentar {
+    background-color: #719BE0;
+    width: 15%;
+    height: 50px;
+    font-family: "Microsoft Sans Serif";
+    font-size: 15px;
+    border-radius: 5px;
+    border: none;
+    overflow: hidden;
+}
 footer {
         background:#95D8E0;
         padding-top: 15px;
@@ -90,6 +96,7 @@ footer {
     a {
         text-decoration: none;
         font-family: 'Poppins', serif;
+        color: #EDF2FB;
     }
     a:hover {
         color: #FFFFFF;

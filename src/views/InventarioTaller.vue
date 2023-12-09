@@ -47,11 +47,34 @@
                 <p>Gafas de seguridad, guantes de trabajo, cascos y protectores auditivos</p>
         </div>
     </div>
-
-  <p>"El sitio web de éste taller mecánico NO<br>
-  se hace responsable por absolutamente nada de lo que<br>
-  establezca aquí"</p>    
-
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<p>"El sitio web de éste taller mecánico NO<br>
+se hace responsable por absolutamente nada de lo que<br>
+establezca aquí"</p>
 <footer>
     <h2 class="titulo-seccion"><center>Contacto</center></h2>
         <h3>Ponte en contacto ahora mismo!</h3>
@@ -81,152 +104,147 @@
                     </div>
                     <div class="col">
                             <ul class="login">
-                                <li><a href="">Login</a></li>
-                            </ul>
-                        </div>
-                        <div class="col">
-                            <ul class="meet">
-                                <li><a href="/meet">Conócenos</a></li>
+                                <li><a href="/login">🐧</a></li>
                             </ul>
                         </div>
                 </div>
             </footer>
 </template>
 
-<style>
+<style scoped>
 p{
-        text-align: center;
-        font-family: 'Poppins', serif;
+text-align: center;
+font-family: 'Poppins', serif;
 }
 footer {
-        background:#95D8E0;
-        padding-top: 15px;
-    }
-    .contenedor {
-        width: 1140px;
-        height: 120px;
-        margin: auto;
-        display: flex;
-        justify-content: center;
-    }
-    .footer-content {
-        width: 25%;
-    }
-    h3 {
-        font-size: 15px;
-        margin-bottom: 15px;
-        text-align: center;
-        font-family: 'Poppins', serif;
-    }
-    .footer-content p {
-        width:190px;
-        margin: auto;
-        padding: 7px;
-        font-family: 'Poppins', serif;
-    }
-    a {
-        text-decoration: none;
-        font-family: 'Poppins', serif;
-    }
-    a:hover {
-        color: #FFFFFF;
-        font-family: 'Poppins', serif;
-    }
-    .bottom-bar {
-        background: #f18930;
-        text-align: center;
-        padding: 10px 0;
-        margin-top: 50px;
-    }
-    .bottom-bar p {
-        color: #343434;
-        margin: 0;
-        font-size: 16px;
-        padding: 7px;
-        font-family: 'Poppins', serif;
-    }
+background:#95D8E0;
+padding-top: 17px;
+}
+.contenedor {
+width: 1140px;
+height: 120px;
+margin: auto;
+display: flex;
+justify-content: center;
+}
+.footer-content {
+width: 25%;
+}
+h3 {
+font-size: 15px;
+margin-bottom: 15px;
+text-align: center;
+font-family: 'Poppins', serif;
+}
+.footer-content p {
+width:190px;
+margin: auto;
+padding: 7px;
+font-family: 'Poppins', serif;
+}
+a {
+text-decoration: none;
+font-family: 'Poppins', serif;
+}
+a:hover {
+color: #FFFFFF;
+font-family: 'Poppins', serif;
+}
+.bottom-bar {
+background: #f18930;
+text-align: center;
+padding: 10px 0;
+margin-top: 50px;
+}
+.bottom-bar p {
+color: #343434;
+margin: 0;
+font-size: 16px;
+padding: 7px;
+font-family: 'Poppins', serif;
+}
 
 /* Tarjeta 0 */
 .card {
-  left: 2%;
-  width: 300px;
-  height: 280px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-  gap: 10px;
-  background-color: rgb(255, 255, 255);
-  border-radius: 15px;
-  position: relative;
-  overflow: hidden;
-  margin: 10px 15px;
-  float: left;
+left: 2%;
+width: 300px;
+height: 280px;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+text-align: center;
+gap: 10px;
+background-color: rgb(255, 255, 255);
+border-radius: 15px;
+position: relative;
+overflow: hidden;
+margin: 10px 15px;
+float: left;
 }
 .card::before {
-  content: "";
-  width: 350px;
-  height: 130px;
-  position: absolute;
-  top: 0;
-  border-top-left-radius: 15px;
-  border-top-right-radius: 15px;
-  border-bottom: 3px solid #F6F6F6;
-  background-image: linear-gradient(to right top,#3D81BE,#5DA6E8,#87C6FF,#B1DAFF);
-  transition: all 0.5s ease;
+content: "";
+width: 350px;
+height: 130px;
+position: absolute;
+top: 0;
+border-top-left-radius: 15px;
+border-top-right-radius: 15px;
+border-bottom: 3px solid #F6F6F6;
+background-image: linear-gradient(to right top,#3D81BE,#5DA6E8,#87C6FF,#B1DAFF);
+transition: all 0.5s ease;
 }
 .card * {
-  z-index: 1;
+z-index: 1;
 }
 .information {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 15px;
-  transition: all 0.5s ease;
+display: flex;
+flex-direction: column;
+align-items: center;
+gap: 15px;
+transition: all 0.5s ease;
 }
 .information span {
-  font-weight: 590;
-  font-size: 25px;
-  color: #161A42;
-  margin-top: 25px;
-  line-height: 15px;
-  font-family: 'Microsoft Sans Serif';
+font-weight: 590;
+font-size: 25px;
+color: #161A42;
+margin-top: 35px;
+line-height: 15px;
+font-family: 'Microsoft Sans Serif';
 }
 .information p {
-  color: rgba(0, 0, 0, 0.5);
-  font-family: 'Microsoft Sans Serif';
+color: rgba(0, 0, 0, 0.5);
+font-family: 'Microsoft Sans Serif';
 }
 .card:hover::before {
-  width: 350px;
-  height: 300px;
-  border-bottom: none;
-  border-bottom-left-radius: 15px;
-  border-bottom-right-radius: 15px;
-  transform: scale(0.95);
+width: 350px;
+height: 300px;
+border-bottom: none;
+border-bottom-left-radius: 15px;
+border-bottom-right-radius: 15px;
+transform: scale(0.95);
 }
 .card:hover .information {
-  transform: translate(0%,-25%);
+transform: translate(0%,-25%);
 }
 .viewmore {
-  top: 75%;
-  right: 25%;
-  position: absolute;
-  background-color:rgb(64, 168, 199);
-  border-radius: 5px;
-  box-shadow: rgb(0, 0, 0) 0px 4px 0px 0px;
-  padding: 15px;
-  background-repeat: no-repeat;
-  box-sizing: border-box;
-  width: 150px;
-  height: 40px;
-  color: #fff;
-  border: none;
-  font-size: 20px;
-  transition: all .3s ease-in-out;
-  z-index: 1;
-  overflow: hidden;
+top: 75%;
+right: 25%;
+position: absolute;
+background-color:rgb(64, 168, 199);
+
+box-shadow: rgb(0, 0, 0) 0px 4px 0px 0px;
+padding: 15px;
+background-repeat: no-repeat;
+box-sizing: border-box;
+width: 150px;
+height: 40px;
+color: #fff;
+border: none;
+font-size: 20px;
+transition: all .3s ease-in-out;
+z-index: 1;
+overflow: hidden;
 }
 .viewmore::before {
   content: "";
@@ -287,7 +305,7 @@ footer {
   font-weight: 590;
   font-size: 25px;
   color: #161A42;
-  margin-top: 10px;
+  margin-top: 35px;
   line-height: 24px;
   font-family: 'Microsoft Sans Serif';
 }
@@ -386,7 +404,7 @@ footer {
   font-weight: 590;
   font-size: 25px;
   color: #161A42;
-  margin-top: 10px;
+  margin-top: 35px;
   line-height: 24px;
   font-family: 'Microsoft Sans Serif';
 }
@@ -774,7 +792,7 @@ footer {
   font-weight: 590;
   font-size: 25px;
   color: #161A42;
-  margin-top: 10px;
+  margin-top: 20px;
   line-height: 24px;
   font-family: 'Microsoft Sans Serif';
 }
@@ -871,7 +889,7 @@ footer {
   font-weight: 590;
   font-size: 25px;
   color: #161A42;
-  margin-top: 10px;
+  margin-top: 2px;
   line-height: 24px;
   font-family: 'Microsoft Sans Serif';
 }

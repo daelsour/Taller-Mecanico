@@ -10,14 +10,7 @@
 <br>
 <br>
 <br>
-<br>
-<br>
-<br>
-<br>
-<br>
-
-
-  <h1 class="Letre">Mas de 20 Años a tu<span> Servicio</span></h1>
+  <h1 class="Letre">Más de <span>20 Años</span> a tu Servicio</h1>
 
   <button class="btnr">
     <a href=""><img src="../assets/1.png"></a>
@@ -50,9 +43,7 @@
 <br>
 <br>
 <br>
-<br>
-<br>
-<br>
+
 
 <div id="slider">
    
@@ -114,12 +105,7 @@
                     </div>
                     <div class="col">
                             <ul class="login">
-                                <li><a href="">Login</a></li>
-                            </ul>
-                        </div>
-                        <div class="col">
-                            <ul class="meet">
-                                <li><a href="/meet">Conócenos</a></li>
+                                <li><a href="/login">🐧</a></li>
                             </ul>
                         </div>
                 </div>
@@ -129,7 +115,7 @@
 <style>
 .yessi {
   width: 1350px;
-  height: 500px;
+  height: 460px;
 }
 .meda {
   width: 1350px;
@@ -200,40 +186,6 @@
 .card:hover .information {
   transform: translate(0%,-25%);
 }
-.viewmore {
-  top: 75%;
-  right: 25%;
-  position: absolute;
-  background-color:rgb(64, 168, 199);
-  border-radius: 5px;
-  box-shadow: rgb(0, 0, 0) 0px 4px 0px 0px;
-  padding: 15px;
-  background-repeat: no-repeat;
-  box-sizing: border-box;
-  width: 150px;
-  height: 40px;
-  color: #fff;
-  border: none;
-  font-size: 20px;
-  transition: all .3s ease-in-out;
-  z-index: 1;
-  overflow: hidden;
-}
-.viewmore::before {
-  content: "";
-  background-color: rgb(47, 51, 110);
-  width: 0;
-  height: 100%;
-  position: absolute;
-  top: 0;
-  left: 0;
-  z-index: -1;
-  transition: width 700ms ease-in-out;
-  display: inline-block;
-}
-.viewmore:hover::before {
-  width: 100%;
-}
 /* Tarjeta 1 */
 .card-1 {
   left: 2%;
@@ -296,42 +248,6 @@
 }
 .card-1:hover .information-1 {
   transform: translate(0%,-25%);
-}
-.viewmore {
-  top: 75%;
-  right: 25%;
-  position: absolute;
-  background-color:rgb(64, 168, 199);
-  border-radius: 5px;
-  box-shadow: rgb(0, 0, 0) 0px 4px 0px 0px;
-  padding: 15px;
-  background-repeat: no-repeat;
-  box-sizing: border-box;
-  width: 150px;
-  height: 40px;
-  color: #fff;
-  border: none;
-  font-size: 20px;
-  transition: all .3s ease-in-out;
-  z-index: 1;
-  overflow: hidden;
-}
-
-.viewmore::before {
-  content: "";
-  background-color: rgb(47, 51, 110);
-  width: 0;
-  height: 100%;
-  position: absolute;
-  top: 0;
-  left: 0;
-  z-index: -1;
-  transition: width 700ms ease-in-out;
-  display: inline-block;
-}
-
-.viewmore:hover::before {
-  width: 100%;
 }
 /* Tarjeta 2 */
 .card-2 {
@@ -396,40 +312,6 @@
 .card-2:hover .information-2 {
   transform: translate(0%,-25%);
 }
-.viewmore {
-  top: 75%;
-  right: 25%;
-  position: absolute;
-  background-color:rgb(64, 168, 199);
-  border-radius: 5px;
-  box-shadow: rgb(0, 0, 0) 0px 4px 0px 0px;
-  padding: 15px;
-  background-repeat: no-repeat;
-  box-sizing: border-box;
-  width: 150px;
-  height: 40px;
-  color: #fff;
-  border: none;
-  font-size: 20px;
-  transition: all .3s ease-in-out;
-  z-index: 1;
-  overflow: hidden;
-}
-.viewmore::before {
-  content: "";
-  background-color: rgb(47, 51, 110);
-  width: 0;
-  height: 100%;
-  position: absolute;
-  top: 0;
-  left: 0;
-  z-index: -1;
-  transition: width 700ms ease-in-out;
-  display: inline-block;
-}
-.viewmore:hover::before {
-  width: 100%;
-}
     footer {
         background:#95D8E0;
         padding-top: 15px;
@@ -485,12 +367,10 @@
         padding: 7px;
         font-family: 'Poppins', serif;
     }
-    /* las imágenes no van a salir del márgen de la pantalla*/
 div#slider figure img { 
   width: 10%; 
   float: left; 
 }
-/*el movimiento se va a mantener de forma indefinida -infinito-*/
 div#slider figure { 
   position: relative;
   width: 170%;
@@ -520,15 +400,13 @@ div#slider figure {
   top: 100%;
   right: 30%;
   font-family: 'Poppins', monospace;
-  color: rgb(255, 0, 170);
+  color: #045092;
   text-align: center;
   font-size: 44px;
 }
-/* subrayando de letra */
 .Letre span {
-  color: #01dbf8;
+  color: #196FFD;
 }
-/* boton1 de productos */
 .btnr img {
   height: 140px;
   width: 140px;
@@ -544,8 +422,6 @@ div#slider figure {
   -moz-opacity: .50;
   filter: alpha (opacity=50);
 }
-
-/* boton2 de productos */
 .btnn img {
   height: 140px;
   width: 140px;
@@ -562,8 +438,6 @@ div#slider figure {
   -moz-opacity: .50;
   filter: alpha (opacity=50);
 }
-
-/* boton3 de productos */
 .btnnr img {
   height: 140px;
   width: 140px;
@@ -580,8 +454,6 @@ div#slider figure {
   -moz-opacity: .50;
   filter: alpha (opacity=50);
 }
-
-/* boton4 de productos */
 .bt img {
   height: 140px;
   width: 140px;
@@ -597,9 +469,6 @@ div#slider figure {
   -moz-opacity: .50;
   filter: alpha (opacity=50);
 }
-
-/* letras de los botones */
-/* boton1 */
 .ja {
   position: absolute;
   top: 142%;
@@ -609,7 +478,6 @@ div#slider figure {
   text-align: center;
   font-size: 18px;
 }
-/* boton2 */
 .je {
   position: absolute;
   top: 142%;
@@ -619,7 +487,6 @@ div#slider figure {
   text-align: center;
   font-size: 18px;
 }
-/* boton3 */
 .ji {
   position: absolute;
   top: 142%;
@@ -629,7 +496,6 @@ div#slider figure {
   text-align: center;
   font-size: 18px;
 }
-/* boton4 */
 .jo {
   position: absolute;
   top: 142%;

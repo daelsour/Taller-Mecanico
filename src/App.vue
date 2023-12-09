@@ -1,10 +1,8 @@
 <template>
-
   <div id="app">
-   
-        
     <div class="navbar">
       <ul>
+      <li><NavegacionTaller /></li>
         <li><a><router-link to="/">Inicio</router-link></a></li>
         <li><a><router-link to="/inv">Inventario</router-link></a> </li>
         <li><a><router-link to="/serv">Servicios</router-link></a> </li>
@@ -14,6 +12,15 @@
   </div>
 <router-view/>
 </template>
+
+<script>
+import NavegacionTaller from '@/components/layout/NavegacionTaller'
+export default {
+  components: {
+    NavegacionTaller
+  }
+}
+</script>
 
 <style>
   @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
@@ -59,4 +66,8 @@ ul li a:hover {
   background: rgb(138, 177, 245);
   border-radius: 10px;
 }
+</style>
+
+<style lang="scss">
+@import './scss/AppTaller.scss';
 </style>
